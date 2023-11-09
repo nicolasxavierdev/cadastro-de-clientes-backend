@@ -1,0 +1,19 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/cors": "^8.4.1",
+    "@prisma/client": "^5.5.2",
+    "@types/node": "^20.8.10",
+    "fastify": "^4.24.3",
+    "mongodb": "^6.2.0",
+    "prisma": "^5.5.2",
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2"
+  }
+}
